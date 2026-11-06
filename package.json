@@ -1,0 +1,26 @@
+{
+  "name": "trabajo-practico-integrador-4-vanina-resquin",
+  "version": "1.0.0",
+  "description": "Alumna: Vanina Resquin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaninaCodes/trabajo-practico-integrador-4-vanina-resquin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/VaninaCodes/trabajo-practico-integrador-4-vanina-resquin/issues"
+  },
+  "homepage": "https://github.com/VaninaCodes/trabajo-practico-integrador-4-vanina-resquin#readme",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
