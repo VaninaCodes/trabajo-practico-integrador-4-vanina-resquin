@@ -108,4 +108,28 @@ Alumna: Vanina Resquin
       }
   ```
 - Para parametros opcionales se usa **?**: `suma( a?: number)`
-- Un parametro port defecto es asi: `sumar(a: number = "31")`
+- Un parametro por defecto es asi: `sumar(a: number = "31")`
+
+## Tema 5: Interfaces y type
+
+- Una _interfaz_ es una herramienta orientada a objetos, permite definir la estructura y el comportamiento de un objeto.
+- Un _type_ sirve para describir la forma del dato a usar.
+- Una propiedad opcional se declara despues del nombre del elemento con un signo **?**. Por ejemplo: `edad?: number;`
+- La _interface_ se usa ára estructuras de objetos y clases, mientras que., _type_ se usa en uniones, intersecciones y tipos literales.
+
+## Tema 6: Enums y tipos literales
+
+- Un _enum_ es más que un tipo porque TypeScript lo convierte en un objeto de JavaScript.
+- Un _tipo literal_ permite definir variables con valores específicos y prefijados.
+- Se parecen en que ambas existen para definir tipos pero la gran diferencia es que, los tipos literales son más precisos al usarlos mientras que los enums son directamente puestos por nosotros.
+- Enum suele usarse cuando necesitamos un grupo de constantes que se relacionan entre si, mientras que los tipos literales son ideales para definir valores especificos.
+
+### Fuentes
+
+- Introduccion_a_TypeScript_2026.pdf
+- Diferencias entre js y ts: https://coddy.tech/docs/es/typescript/typescript-vs-javascript
+- Version de ts: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+- Union de tipos: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types
+- Interfaces: https://www.luisllamas.es/interfaces-en-typescript
+- Tipos literales: https://www.luisllamas.es/typescript-literales/
+- Tipos literales vs Enum: https://www.webdevtutor.net/blog/typescript-literal-type-vs-enum
